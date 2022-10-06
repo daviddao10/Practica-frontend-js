@@ -17,7 +17,7 @@ export const buildaddListSpinner = () => {
     `
   }
   
-  export const buildEmptyaddList = () => {
+  export const buildEmptyAddList = () => {
     return `
     <h2>No hay adds disponibles.</h2>
     `

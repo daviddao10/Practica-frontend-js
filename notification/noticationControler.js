@@ -2,7 +2,7 @@ import { buildNotificationView } from "./notificationView";
 import { pubSub } from "../pubSub";
 
 
-export class notificationController {
+export class NotificationController {
     constructor(nodeElement){
         this.notificationElement = nodeElement;
 
