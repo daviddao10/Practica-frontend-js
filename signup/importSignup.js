@@ -1,4 +1,4 @@
-import { sparrestApi } from "../SparrestApi";
+import { sparrestApi } from "../SparrestApi.js";
 
 export const createrUserApi = async (userName, password) =>{
     const body = {

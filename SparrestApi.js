@@ -1,4 +1,4 @@
-class SparrestApi {
+export class SparrestApi {
 
   baseUrl = 'http://localhost:8000'
   endpoints = {

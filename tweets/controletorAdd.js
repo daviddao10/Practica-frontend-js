@@ -1,4 +1,4 @@
-import { buildAddsView, buildAddsListSpinner, buildEmptyAddList } from "./viewAdds.js"
+import { buildAddsView, buildAddsListSpinner, buildEmptyAddList } from "./viewAdd.js"
 import { getAdds } from "./add-list-provide.js"
 import { pubSub } from "../pubSub.js"
 
@@ -24,7 +24,7 @@ export class AddsListController{
 
         this.addsConteinerElement.querySelector('.spinner').classList.toggle('hide')
 
-        this.drawAdds()
+        this.drawAdds(adds)
 
     }
 

@@ -1,4 +1,4 @@
-class PubSub {
+export class PubSub {
 
   TOPICS = {
     NOTIFICATION_ERROR: 'NOTIFICATION_ERROR'

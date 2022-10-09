@@ -4,4 +4,3 @@ export const buildNotificationView = (message) => {
       <button class="notification-button-close">cerrar</button>
     `;
   }
-  

@@ -1,5 +1,5 @@
-import { buildNotificationView } from "./notificationView";
-import { pubSub } from "../pubSub";
+import { buildNotificationView } from "./notificationView.js";
+import { pubSub } from "../pubSub.js";
 
 
 export class NotificationController {
